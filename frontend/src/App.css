@@ -307,11 +307,47 @@ input[type="text"]:focus {
 
 .script-content {
     font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
-    line-height: 2;
+    font-size: 1.2rem;
+    line-height: 1.8;
     color: #fff;
-    white-space: pre-wrap;
 }
+
+.script-content h1,
+.script-content h2,
+.script-content h3 {
+    color: var(--primary-color);
+    margin: 1.5rem 0 1rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.script-content p {
+    margin-bottom: 1.2rem;
+}
+
+.script-content ul,
+.script-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.script-content li {
+    margin-bottom: 0.5rem;
+}
+
+.script-content strong {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+/* Persona Analysis Markdown */
+.text-content strong {
+    color: var(--primary-color);
+}
+
+.text-content p {
+    margin-bottom: 0.8rem;
+}
+
 
 /* Standard Result Card */
 .result-card {

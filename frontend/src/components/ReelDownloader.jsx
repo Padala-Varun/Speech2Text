@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { FaDownload, FaSpinner, FaCheckCircle, FaExclamationTriangle, FaFileAlt, FaBrain, FaPlus, FaTrash, FaFire, FaVideo, FaMagic } from 'react-icons/fa';
 import LoadingOverlay from './LoadingOverlay';
+import ReactMarkdown from 'react-markdown';
+
 
 
 const ReelDownloader = () => {
@@ -100,8 +102,9 @@ const ReelDownloader = () => {
                     <div className="data-box" style={{ borderLeft: '4px solid var(--primary-color)' }}>
                         <h4><FaBrain /> AI Persona Analysis</h4>
                         <div className="text-content" style={{ fontSize: '0.95rem' }}>
-                            {item.analysis}
+                            <ReactMarkdown>{item.analysis}</ReactMarkdown>
                         </div>
+
                     </div>
                 )}
             </div>
@@ -254,8 +257,9 @@ const ReelDownloader = () => {
                                 {generatedContent.startsWith('ERROR:') ? 'System Alert' : 'VIRAL REMAKE SCRIPT'}
                             </h2>
                             <div className="script-content">
-                                {generatedContent}
+                                <ReactMarkdown>{generatedContent}</ReactMarkdown>
                             </div>
+
                         </div>
                     )}
 
