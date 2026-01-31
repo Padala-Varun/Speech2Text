@@ -1,0 +1,6 @@
+/* Global resets can go here */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

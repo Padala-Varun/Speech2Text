@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaReel Downloader</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>InstaReel Downloader</h1>
+        <p class="subtitle">Paste an Instagram Reel URL to download</p>
+        
+        <div class="input-group">
+            <input type="text" id="urlInput" placeholder="https://www.instagram.com/reel/..." />
+            <button id="downloadBtn">Download Reel <span id="loader" class="loader hidden"></span></button>
+        </div>
+
+        <div id="errorMsg" class="error"></div>
+
+        <div id="result">
+            <h3>Ready to Watch!</h3>
+            <video id="videoPlayer" controls>
+                Your browser does not support the video tag.
+            </video>
+            <div style="margin-top: 1rem;">
+                <a id="downloadLink" href="#" target="_blank" style="color: var(--primary-color); text-decoration: none;">Opne Direct Link</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
