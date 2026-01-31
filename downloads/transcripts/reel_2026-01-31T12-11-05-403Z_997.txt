@@ -1,0 +1,5 @@
+We just got AI GTA 6 before the actual GTA 6. 
+This is Genie 3 by Google, which can build entire video game worlds from a single image or prompt. 
+You can click a photo of a random object in your room and it can turn it into a fully playable character within seconds, running in real time at 24 frames per second. 
+Using this, you can combine historical images generated with Nano Banana and Gemini 3 reasoning, then visit and explore them with Genie 3. 
+It doesn't just generate Eight clips. It understands how the physical world works. Objects fall when you drop them, water flows downhill, light bounces realistically, and it remembers everything for up to a minute. So if you leave a room and come back, everything is exactly where you left it. Google built this to train AI robots. Instead of risking million dollar machines in the real world, they can now practice in unlimited virtual environments first. They're calling this a stepping stone to AGI. We're watching the technology that might teach AI to understand our physical world the way we do. And for more such AI content, follow 100X.
